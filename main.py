@@ -21,7 +21,7 @@ class ChatBot():
     def __init__(self):
         pass
 
-    loader = TextLoader(Path(r"C:\Users\HandaZa\Desktop\RAG real state\real-estate-chatbot-modified.txt"))
+    loader = TextLoader(Path("df-ans.txt"))
     documents = loader.load()
     text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=4)
     docs = text_splitter.split_documents(documents)
