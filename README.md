@@ -13,7 +13,18 @@ This project is a **Retrieval-Augmented Generation (RAG)**-based chatbot designe
 - **Mental Health Focused**: The chatbot restricts conversations to mental health topics, collecting symptoms and generating responses accordingly.
 - **Symptom Collection**: Once the chatbot has collected sufficient symptoms, it presents them for review.
 - **RAG Pipeline**: Uses document retrieval and generation to provide contextually relevant responses.
-
+  
+## Instructions:
+1. **Create a conda environment**:
+   Open your terminal and run the following command to create a conda environment with Python 3.10.12:
+   ```bash
+   conda create --name myenv python=3.10.12
+   ```
+2. **Activate the environment**:
+   Once the environment is created, activate it using the following command:
+   ```bash
+   conda activate myenv
+   ```
 ## Requirements
 
 To run this project, you'll need the following dependencies:
